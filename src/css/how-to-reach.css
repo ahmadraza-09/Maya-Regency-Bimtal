@@ -1,0 +1,49 @@
+.how-to-reach-section {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #353535;
+    color: #fff;
+    padding: 20px 0px;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.how-to-reach-section h1 {
+    text-align: center;
+}
+
+.how-to-reach-section p {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.how-to-reach-section ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.how-to-reach-section ul li {
+    line-height: 20px;
+}
+
+@media (max-width: 480px) {
+    .how-to-reach-section{
+        padding: 10px;
+        align-items: start;
+    }
+
+    .how-to-reach-section h1 {
+        font-size: 25px;
+        text-align: start;
+    }
+
+    .how-to-reach-section p {
+        text-align: start;
+    }
+}
